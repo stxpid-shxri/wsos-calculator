@@ -1,0 +1,11 @@
+/home/shuridadog/wsow-calculator/wsos-calculator/target/bpfel-unknown-unknown/release/deps/serde_bytes-095f4e581c1af44c.rmeta: /home/shuridadog/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/lib.rs /home/shuridadog/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/bytes.rs /home/shuridadog/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/de.rs /home/shuridadog/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/ser.rs /home/shuridadog/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/bytebuf.rs
+
+/home/shuridadog/wsow-calculator/wsos-calculator/target/bpfel-unknown-unknown/release/deps/libserde_bytes-095f4e581c1af44c.rlib: /home/shuridadog/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/lib.rs /home/shuridadog/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/bytes.rs /home/shuridadog/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/de.rs /home/shuridadog/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/ser.rs /home/shuridadog/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/bytebuf.rs
+
+/home/shuridadog/wsow-calculator/wsos-calculator/target/bpfel-unknown-unknown/release/deps/serde_bytes-095f4e581c1af44c.d: /home/shuridadog/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/lib.rs /home/shuridadog/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/bytes.rs /home/shuridadog/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/de.rs /home/shuridadog/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/ser.rs /home/shuridadog/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/bytebuf.rs
+
+/home/shuridadog/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/lib.rs:
+/home/shuridadog/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/bytes.rs:
+/home/shuridadog/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/de.rs:
+/home/shuridadog/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/ser.rs:
+/home/shuridadog/.cargo/registry/src/github.com-1ecc6299db9ec823/serde_bytes-0.11.9/src/bytebuf.rs:

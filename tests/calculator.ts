@@ -1,4 +1,4 @@
-import * as anchor from "@project-serum/anchor";
+import * as anchor from "@project-serum/anchor"
 import { Program } from "@project-serum/anchor";
 import { Calculator } from "../target/types/calculator";
 const { SystemProgram } = anchor.web3
@@ -43,6 +43,36 @@ describe("calculator", () => {
     .rpc()
     const account = await program.account.calculator.fetch(calculatorPair.publicKey)
     expect(account.result).to.eql(new anchor.BN(5))
-})
+  })
+
+  it('Subtraction',async () => {
+    await program.methods.subtract(new anchor.BN(2), new anchor.BN(3))
+    .accounts({
+        calculator: calculatorPair.publicKey,
+    })
+    .rpc()
+    const account = await program.account.calculator.fetch(calculatorPair.publicKey)
+    expect(account.result).to.eql(new anchor.BN(-1))
+  })
+
+  it('Multiplication',async () => {
+    await program.methods.multiply(new anchor.BN(2), new anchor.BN(3))
+    .accounts({
+        calculator: calculatorPair.publicKey,
+    })
+    .rpc()
+    const account = await program.account.calculator.fetch(calculatorPair.publicKey)
+    expect(account.result).to.eql(new anchor.BN(6))
+  })
+
+  it('Division',async () => {
+    await program.methods.divide(new anchor.BN(10), new anchor.BN(2))
+    .accounts({
+        calculator: calculatorPair.publicKey,
+    })
+    .rpc()
+    const account = await program.account.calculator.fetch(calculatorPair.publicKey)
+    expect(account.result).to.eql(new anchor.BN(5))
+  })
 
 });
